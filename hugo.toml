@@ -1,4 +1,62 @@
 baseURL = 'https://wicwik.github.io/'
-languageCode = 'en-us'
-title = 'Life of a PhD student'
+title = 'wicwik'
 theme = 'LoveIt'
+languageCode = 'en-us'
+languageName = "English"
+paginate = 5
+
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[author]
+  name = "Róbert Belanec"
+  email = "belanecrobert22@gmail.com"
+  link = "https://wicwik.github.io/"
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    pre = ""
+    post = ""
+    name = "All Posts"
+    url = "/posts/"
+
+    title = ""
+  [[menu.main]]
+    weight = 5
+    identifier = "about"
+    pre = "<b>"
+    post = "</b>"
+    name = "About"
+    url = "/about/"
+    title = ""
+
+
+[params]
+  env = "production"
+  defaultTheme = "dark"
+  gitRepo = "https://github.com/Wicwik/wicwik.github.io"
+  dateFormat = "January 2, 2006"
+  title = "wicwik"
+  description = "Robert's Personal Blog"
+  images = ["/undefined.png"]
+  
+  [params.header]
+    # behaviour of header toolbar
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = "" 
+      name = "PhD life"
+      pre = ""
+      post = ""
+      typeit = false
+  [params.footer]
+    enable = true
+    custom = ""
+    hugo = false
+    copyright = true
+    author = true
+    since = 2024

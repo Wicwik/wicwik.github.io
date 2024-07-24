@@ -66,7 +66,7 @@ enableEmoji = true
       anonymizeIP = true
   
   [params.cookieconsent]
-    enable = false
+    enable = true
     [params.cookieconsent.content]
       message = "This site uses Google Analytics."
       dismiss = "Allow cookies"

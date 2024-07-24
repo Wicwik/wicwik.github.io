@@ -58,6 +58,23 @@ enableEmoji = true
     name = "Róbert Belanec"
     email = "belanecrobert22@gmail.com"
     link = "https://wicwik.github.io/"
+  
+  [params.analytics]
+    enable = true
+    [params.analytics.google]
+      id = "G-J2STH121Y3"
+      anonymizeIP = true
+  
+  [params.cookieconsent]
+    enable = false
+    [params.cookieconsent.content]
+      message = "This site uses Google Analytics."
+      dismiss = "Allow cookies"
+      link = "What are cookies?"
+
+  [params.compatibility]
+    polyfill = false
+    objectFit = false
 
   
   [params.header]

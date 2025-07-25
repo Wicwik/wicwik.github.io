@@ -1,9 +1,9 @@
-baseURL = 'https://wicwik.github.io/'
-title = 'PhD and stuff'
-theme = 'LoveIt'
-languageCode = 'en-us'
+baseURL = "https://wicwik.github.io/"
+title = "Welcome!"
+theme = "LoveIt"
+languageCode = "en-us"
 languageName = "English"
-paginate = 5
+pagination.pagerSize = 5
 
 enableRobotsTXT = true
 enableGitInfo = true
@@ -34,7 +34,7 @@ enableEmoji = true
     post = ""
     name = "Categories"
     url = "/categories/"
-    title = ""
+    title = "Categories"
   [[menu.main]]
     weight = 5
     identifier = "about"
@@ -42,7 +42,7 @@ enableEmoji = true
     post = "</b>"
     name = "About"
     url = "/about/"
-    title = ""
+    title = "About"
 
 
 [params]
@@ -50,8 +50,8 @@ enableEmoji = true
   defaultTheme = "dark"
   gitRepo = "https://github.com/Wicwik/wicwik.github.io"
   dateFormat = "January 2, 2006"
-  title = "PhD and stuff"
-  description = "Robert's Personal Blog"
+  title = "Welcome!"
+  description = "Robert's personal blog"
   images = ["/undefined.png"]
 
   [params.author]
@@ -83,7 +83,7 @@ enableEmoji = true
     mobileMode = "auto"
     [params.header.title]
       logo = "" 
-      name = "PhD and stuff"
+      name = "Róbert Belanec"
       pre = ""
       post = ""
       typeit = false
@@ -95,11 +95,11 @@ enableEmoji = true
     author = true
     since = 2024
   [params.section]
-    paginate = 10
+    pagination.pagerSize = 10
     dateFormat = "January 2, 2006"
     rss = 10
   [params.list]
-    paginate = 10
+    pagination.pagerSize = 10
     dateFormat = "January 2, 2006"
     rss = 10
   [params.search]
@@ -122,7 +122,7 @@ enableEmoji = true
       social = true
     [params.home.posts]
       enable = true
-      paginate = 5
+      pagination.pagerSize = 5
   [params.social]
     Github = "wicwik"
     Linkedin = "robertbelanec"

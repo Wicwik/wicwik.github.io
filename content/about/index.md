@@ -61,15 +61,6 @@ seo:
 
 <!--more-->
 
-## Me
-I am a PhD student at the [Kempelen Institute of Intelligent Technologies](https://kinit.sk) in Bratislava, Slovakia. My dissertation topic is in machine learning with limited (labelled) data and I focus more in this topic on parameter-efficient fine-tuning methods for large language models. In other words, how to train large models with less compute and less data (an easy task I bet).
-
-I also have a [more official webpage](https://kinit.sk/member/robert-belanec/) where I post my recent accomplishments.
-
-I have started this blog during my first year of study which I finished in 2024. My primary aim is to share the stuff I have done during pursuing my PhD in more informal way than on official media and also to help me understand various topics by explaining them via blog posts. This is also a good way for me to get feedback for the stuff I am doing.
-
-Enjoy!
-
 ## This blog
 I draw a **lot of** inspiration from [152334h blog](https://152334h.github.io), but mostly because I like the theme and because it is so simple to setup/update. All cudos goes to 152334h, thanks!
 

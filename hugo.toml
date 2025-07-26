@@ -1,5 +1,5 @@
 baseURL = "https://wicwik.github.io/"
-title = "Welcome!"
+title = "Robert Belanec"
 theme = "LoveIt"
 languageCode = "en-us"
 languageName = "English"
@@ -50,7 +50,7 @@ enableEmoji = true
   defaultTheme = "dark"
   gitRepo = "https://github.com/Wicwik/wicwik.github.io"
   dateFormat = "January 2, 2006"
-  title = "Welcome!"
+  title = "Robert Belanec"
   description = "Robert's personal blog"
   images = ["/undefined.png"]
 
